@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second-task</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h5 class="pt-3">Hesablama Merkezi</h5>
+
+        <div class="col-md-3 pt-3">
+          <div class="input-group mb-3">
+            <span class="input-group-text">Mehsulun qiymeti</span>
+            <input type="number" id="price" class="form-control" />
+          </div>
+        </div>
+        <div class="col-md-3 pt-3">
+          <div class="input-group mb-3">
+            <span class="input-group-text">Ay</span>
+            <input type="number" id="month" class="form-control" />
+          </div>
+        </div>
+        <div class="col-md-3 pt-3">
+          <div class="input-group mb-pt-3">
+            <span class="input-group-text">Ayliq Faiz</span>
+            <input type="number" id="percent" class="form-control" />
+          </div>
+        </div>
+        <div class="col-md-3 pt-3">
+          <button type="button" id="calculate" class="btn btn-primary ms-3">
+            Hesabla
+          </button>
+          <button type="button" id="clear" class="btn btn-danger">
+            Temizle
+          </button>
+        </div>
+      </div>
+      <h5 class="pt-3">Odenis Plani</h5>
+
+      <div class="row pt-3" id="append">
+
+
+      </div>
+    </div>
+    <script src="main2.js"></script>
+  </body>
+</html>

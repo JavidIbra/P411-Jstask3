@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  height: 35px;
+  width: 800px;
+  background-color: #8c83b6;
+  border-radius: 3px;
+  margin-top: 70px;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 5px 15px;
+  color: white;
+  cursor: pointer;
+}
+.nav ul li:hover {
+  background-color: #a3c4bc;
+  transition: all 0.7 ease;
+}
+.li-active {
+  background-color: #a3c4bc;
+}
+.active {
+  display: block;
+}
+.passive {
+  display: none;
+}
+
+.dvlist h6 {
+  text-align: center;
+}
